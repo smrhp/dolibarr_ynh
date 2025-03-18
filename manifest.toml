@@ -7,7 +7,7 @@ name = "Dolibarr"
 description.en = "Manage the various aspects of your business or association"
 description.fr = "Gérez les différents aspects de votre activité pro ou associative"
 
-version = "19.0.3~ynh1"
+version = "21.0.0~ynh1"
 
 maintainers = ["mastereur"]
 
@@ -46,8 +46,8 @@ ram.runtime = "150M"
     type = "user"
 
 [resources]
-    [resources.sources.main]
-    url = "https://github.com/Dolibarr/dolibarr/archive/refs/tags/19.0.3.tar.gz"
+    [ressources.sources.main]
+    url = "https://github.com/Dolibarr/dolibarr/archive/refs/tags/21.0.0.tar.gz"
     sha256 = "52fcea5a354f8688fa328abffaa196bf9056f545164cd7fe882d1bb7de654163"
     autoupdate.strategy = "latest_github_release"
 
